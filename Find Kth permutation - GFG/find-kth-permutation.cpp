@@ -19,9 +19,8 @@ public:
         }
 
         string ans = "";
-        int temp = k;
-        temp--;
-        while(temp--){
+        k--;
+        while(k--){
             next_permutation(v.begin(),v.end());
         }
         for (int i = 0; i < v.size(); ++i)
